@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Modern Homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">ModernHub</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="views/login.html" class="nav-link login-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to ModernHub</h1>
+            <p class="hero-subtitle">Beautiful, Fast & Responsive Web Solutions</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.location='views/login.html'">Get Started</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('features')">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Optimized performance for the best user experience</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Beautiful Design</h3>
+                <p>Modern and stunning UI/UX with attention to detail</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>Responsive</h3>
+                <p>Works perfectly on all devices and screen sizes</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Secure</h3>
+                <p>Enterprise-grade security for your peace of mind</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3>Scalable</h3>
+                <p>Grows with your business needs effortlessly</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💡</div>
+                <h3>Innovative</h3>
+                <p>Latest technologies and cutting-edge solutions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="section-title">About ModernHub</h2>
+            <p>ModernHub is a leading platform for creating beautiful and functional web applications. With years of experience in web development, we deliver solutions that transform ideas into reality.</p>
+            <p>Our team is dedicated to providing the best user experience and cutting-edge technology solutions.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>1000+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Team Members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 ModernHub. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
